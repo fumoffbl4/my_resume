@@ -7,6 +7,8 @@ const projectOpenBtnMltProject = document.querySelector('#mlt-project-btn');
 const projectModals = [ projectModalColivingProject, projectModalMltProject ];
 const projectBtns = [ projectOpenBtnColivingProject, projectOpenBtnMltProject ];
 
+const projectModalScrollableElems = document.querySelectorAll('.project-modal-scrollable');
+
 const modalCloseBtns = document.querySelectorAll('.modal-close-btn');
 
 const modalsWrappers = document.querySelectorAll('.modal-area-bgd');
@@ -20,10 +22,12 @@ hideModalOnMobileMenuElementsClick();
 
 projectBtns.forEach((btn, index) => {
     const projectModal = projectModals[index];
+    const projectModalScrollableElem = projectModalScrollableElems[index];
 
     if (btn) {
         btn.addEventListener('click', (event) => {
             event.preventDefault();
+            projectModalScrollableElem.scrollTop = 0;
             projectModal.classList.add(MODAL_ACTIVE_CLASS);
 
             document.body.classList.add(BODY_SCROLL_DISABLE_CLASS);
