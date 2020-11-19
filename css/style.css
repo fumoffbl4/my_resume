@@ -1,0 +1,254 @@
+body {
+    background-color: #f5f7fa;
+    padding-left: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Montserrat;
+}
+
+.wrapper {
+    background-color: #fff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+    background-color: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-photo {
+    width: 370px;
+}
+
+.about-me-container {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.contacts-container {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6e747f;
+}
+
+.contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.tech-skills-title, .soft-skills-title {   
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.tech-skills-container, .soft-skills-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+
+.tech-skills-item, .soft-skills-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #e7640d;
+    margin-left: 15px;
+}
+
+.tech-skills-text, .soft-skills-text {
+    color: #a7abb2;
+}
+
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+.info-container {
+    margin-bottom: 65px;
+}
+
+.projects-title, .work-experience-title, .education-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 55px;
+}
+
+.projects-link, .tech-name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+.dots {
+    color: #bebebe;
+    font-weight: 100;
+}
+
+.projects-item {
+    font-weight: 700;
+    margin-left: 17px;
+}
+
+.projects-container {
+    margin-bottom: 55px;
+}
+
+.job-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.company-title {
+    color: #ff6b08;
+}
+
+.job-time, .education-time {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #a8a8a8;
+}
+
+.job-divider, .education-divider {
+    color: #000;
+}
+
+.job-duties {
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+
+.job-duties-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 17px;
+}
+
+.univercity-title {
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.faculty-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+/* modals */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+    display: block;
+    background:  rgb(20, 29, 45, 0.8);
+    z-index: 999;
+}
+
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-close-btn {
+    font-size: 18px;
+    color: #BCC1D2;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.body-scroll-disable {
+    overflow: hidden;
+}
+
+.project-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.project-modal-container {
+    background: var(--c-light);
+    padding: 45px 0;
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    max-width: 1200px;
+}
+
+.project-modal-scrollable {
+    overflow-y: auto;
+    height: 100%;
+    padding-left: 25px;
+}
+
+.project-screenshot {
+      width: 100%;
+}

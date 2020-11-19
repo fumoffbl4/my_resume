@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+
+    <style>
+        .modal {
+            display: none;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href='css/style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--main container-->
+    <div class="wrapper">
+        <aside class="sidebar">
+            <img class='my-photo' src="./img/photo.jpg" alt="My photo">
+
+            <!--contacts container-->
+            <div class="contacts-container">
+                <h3 class="contacts-title">Contacts</h3>
+                <div>
+                    <span class="contacts-link-type">C:</span> <a class='contacts-link' href="tel:+380635699170">+38 063
+                        569 91 70</a>
+                </div>
+                <div>
+                    <span class="contacts-link-type">E:</span> <a class="contacts-link"
+                        href="mailto:o.redchenko90@gmail.com">o.redchenko90@gmail.com</a>
+                </div>
+            </div>
+
+            <!--tech skills container-->
+            <div class="tech-skills-container">
+                <h3 class="tech-skills-title">Tech Skills</h3>
+                <ul>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">HTML5</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">CSS3</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">Bootstrap4</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">JavaScript</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">GIT</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--soft skills container-->
+            <div class="soft-skills-container">
+                <h3 class="soft-skills-title">Soft Skills</h3>
+
+                <ul>
+                    <li class="soft-skills-item">
+                        <span class="soft-skills-text">Scrum</span>
+                    </li>
+                    <li class="soft-skills-item">
+                        <span class="soft-skills-text">Agile</span>
+                    </li>
+                    <li class="soft-skills-item">
+                        <span class="soft-skills-text">GTD</span>
+                    </li>
+                    <li class="soft-skills-item">
+                        <span class="soft-skills-text">Teamwork</span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!--about me container-->
+        <div class="about-me-container">
+            <!--about me main info-->
+            <div class="info-container">
+                <h2 class="profession">Front-End Developer</h2>
+                <h1 class="name">Oleksandr Redchenko</h1>
+                <p class="description">My name is Oleksandr. I am extremely motivated to constantly develop my skills
+                    and grow professionally. I am confident in my ability to come up with ideas for efficient and
+                    memorable user experience. I think my knowledge and experience may be useful in your segment of work.
+                    I would like to develop and grow professionally in a stable and successful project.</p>
+            </div>
+
+            <!--projects container-->
+            <div class="projects-container">
+                <h3 class="projects-title">Projects</h3>
+
+                <ol>
+                    <!--project are already closed, no links, sorry-->
+                    <li class="projects-item">
+                        <a class="projects-link" href="#" id="coliving-project-btn">101 CoLiving</a>
+                        <span class="dots">...............</span>
+                        <span> <b>[</b> <span class="tech-name">HTML5, CSS3</span> <b>]</b> </span>
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-link" href="#" id="mlt-project-btn">101 MLT</a>
+                        <span class="dots">.........................</span>
+                        <span> <b>[</b> <span class="tech-name">HTML5, CSS3</span> <b>]</b> </span>
+                    </li>
+                    <li class="projects-item">
+                        <a class="projects-link" href="https://fumoffbl4.github.io/eatwithme/index">Eatwithme</a>
+                        <span class="dots">.................</span>
+                        <span> <b>[</b> <span class="tech-name">HTML5, CSS3, Bootstrap4</span> <b>]</b> </span>
+                    </li>
+                </ol>
+            </div>
+
+            <!--work experience container-->
+            <div>
+                <h3 class="work-experience-title">Work Experience</h3>
+
+                <!--company 1-->
+                <div>
+                    <h4 class="job-title">Photographer, videographer <span class="company-title">Freelance</span> </h4>
+                    <span class="job-time">2019 - up to now <span class="job-divider">|</span> Ukraine</span>
+
+                </div>
+
+                <!--company 2-->
+                <div>
+                    <h4 class="job-title">Junior frontend developer <span class="company-title">101 CoLiving</span>
+                    </h4>
+                    <span class="job-time">2018 May - 2019 February <span class="job-divider">|</span> Ukraine</span>
+
+                    <ul class="job-duties">
+                        <li class="job-duties-item">Created lightning fast responsive landing pages using HTML/CSS.</li>
+                        <li class="job-duties-item">Proactively collaborate with copywriters, developers, and/or video
+                            producers to define the message and specs for the graphic design and web development
+                            elements in a project.</li>
+                        <li class="job-duties-item">Developed front-end code variations for A/B testing using HTML, CSS.
+                        </li>
+                        <li class="job-duties-item">Performed quality assurance tests and ascertain the cause of a
+                            problem when a test is not performing as expected or adversely affecting other reporting.
+                        </li>
+                    </ul>
+                </div>
+
+                <!--company 3-->
+                <div>
+                    <h4 class="job-title">Junior frontend developer <span class="company-title">101 MLT</span> </h4>
+                    <span class="job-time">2017 December - 2018 May <span class="job-divider">|</span> Ukraine</span>
+
+                    <ul class="job-duties">
+                        <li class="job-duties-item">A/B testing using HTML, CSS.</li>
+                        <li class="job-duties-item">Design multiple iterations of design elements to optimize clarity
+                            and persuasiveness.</li>
+                        <li class="job-duties-item">Seek out feedback from copywriter, team members, and legal reviewers
+                            for graphic assets in a timely manner to allow for revisions and re-iterations.</li>
+                        <li class="job-duties-item">Experience with Git.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!--education container-->
+            <div>
+                <h3 class="education-title">Education</h3>
+
+                <h4 class="univercity-title">Kyiv National Economic University</h4>
+
+                <p class="faculty-title">Finance and Credit</p>
+                <span class="education-time">2008-2014 <span class="education-divider">|</span> Ukraine</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- modals -->
+
+    <div class="modals-wrapper">
+
+        <div class="modal project-modal modal-area-bgd" id="coliving-project-modal">
+            <div class="project-modal-container">
+                <i class="fas fa-times modal-close-btn my-video-close-btn"></i>
+                <div class="project-modal-scrollable modal-area-content">
+                    <img src="img/101coliving-1.jpg" alt="101Coliving screenshot 1" class="project-screenshot">
+                    <img src="img/101coliving-2.jpg" alt="101Coliving screenshot 1" class="project-screenshot">
+                    <img src="img/101coliving-3.jpg" alt="101Coliving screenshot 1" class="project-screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="modal project-modal modal-area-bgd" id="mlt-project-modal">
+            <div class="project-modal-container">
+                <i class="fas fa-times modal-close-btn my-video-close-btn"></i>
+                <div class="project-modal-scrollable modal-area-content">
+                    <img src="img/101mlt-1.jpg" alt="101Coliving screenshot 1" class="project-screenshot">
+                    <img src="img/101mlt-2.jpg" alt="101Coliving screenshot 1" class="project-screenshot">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/modals.js"></script>
+</body>
+
+</html>
